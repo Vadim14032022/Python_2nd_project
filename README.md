@@ -13,7 +13,7 @@
    ```
   перейти по ссылке http://localhost:5000
 
-![Screenshot](sources/Screenshot from 2022-11-27 20-05-43.png)
+![Screenshot](sources/Screenshot_from_2022-11-27_20-05-43.png)
 
 ## Структура проекта
 
@@ -30,4 +30,4 @@ clicker.py - класс кликера
   4) Анимированный фон
 
 
-![Screenshot](sources/Screenshot from 2022-11-27 20-06-50.png)
+![Screenshot](sources/Screenshot_from_2022-11-27_20-06-50.png)
