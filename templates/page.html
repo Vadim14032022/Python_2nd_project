@@ -4,7 +4,7 @@
 <head>
     <style>
         body {
-            background-image:url({{url_for('sources',filename='first_background.gif')}});
+            background-image:url({{url_for('static',filename='first_background.gif')}});
             background-repeat: no-repeat;
             background-size: fill;
         }
@@ -12,25 +12,26 @@
 </head>
 
 <body>
-    <h1>Clicker:</h1>
+    <center><h1>Clicker:</h1>
     first_field: {{chr["Текущий счет: "]}} <br>
     second_field: {{chr["Цена ручного улучшения: "]}} <br>
-    third_field: {{chr["Цена авто улучшения: "]}} <br>
+    third_field: {{chr["Цена авто улучшения: "]}} <br></center>
+
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
 
     <meta http-equiv="Refresh" content="1"/>
                 
     <form method="post" action="/hand_change">
-        <button type="submit">hand_change</button>
+        <center><button type="submit">hand_change</button></center>
     </form>
         
     <form method="post" action="/hand_upgrade">
-       <button type="submit">hand_upgrade</button>
+       <center><button type="submit">hand_upgrade</button></center>
     </form>
         
     <form method="post" action="/auto_upgrade">
-        <button type="submit">auto_upgrade</button>
+        <center><button type="submit">auto_upgrade</button></center>
     </form>
 </body>
 </html>
