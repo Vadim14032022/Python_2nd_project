@@ -20,4 +20,6 @@
 
 ## Текущая версия
 
-1) 
+
+
+![Screenshot](sources/Screenshot from 2022-11-27 19-05-57.png)
